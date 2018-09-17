@@ -12,10 +12,9 @@ class SkylorComponent extends Component {
     })
   }
 }
-SkylorComponent.init = (opts = {}) => {
+exports.init = (opts = {}) => {
   options = opts;
   Object.freeze(options);
 };
-
 
 module.exports = SkylorComponent;
