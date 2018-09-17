@@ -1,6 +1,6 @@
 {
   "name": "skylor-component",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "inject options into react component `this`",
   "scripts": {
     "start": "npm install react react-dom react-scripts && react-scripts start"
