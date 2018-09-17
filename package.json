@@ -1,0 +1,16 @@
+{
+  "name": "skylor-component",
+  "version": "1.0.3",
+  "description": "inject options into react component `this`",
+  "scripts": {
+    "start": "npm install react react-dom react-scripts && react-scripts start"
+  },
+  "repository": "https://github.com/skyFi/skylor-component",
+  "keywords": [
+    "inject",
+    "react",
+    "component",
+    "this",
+    "skylor"
+  ]
+}
