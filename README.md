@@ -15,10 +15,10 @@ yarn add skylor-component
 
 ### 在应用入口处注入：
 ```jsx
-import Component from 'skylor-component';
+import { init } from 'skylor-component';
 import Services from './services'; // eg: 你的服务...
 
-Component.init({ Services, Hello: true });
+init({ Services, Hello: true }); // 需要注入的项目
 ```
 
 ### 在任意组件内使用，建议全部使用
@@ -35,7 +35,7 @@ export default class Example extends Component {
   }
   render() {
     return (
-      <div>example: {this.state.username}</div>
+      <div>example: {this.state.username} {this.Hello}</div>
     );
   }
 }
