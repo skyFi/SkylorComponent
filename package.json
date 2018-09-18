@@ -1,6 +1,6 @@
 {
   "name": "skylor-component",
-  "version": "1.0.5",
+  "version": "1.1.0",
   "description": "inject options into react component `this`",
   "main": "./lib/index.js",
   "scripts": {
