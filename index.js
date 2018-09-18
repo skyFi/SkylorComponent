@@ -2,7 +2,6 @@
 const { React, Component } = require('react');
 
 let options = {};
-
 class SkylorComponent extends Component {
   constructor(props) {
     super(props);
@@ -12,9 +11,9 @@ class SkylorComponent extends Component {
     })
   }
 }
-exports.init = (opts = {}) => {
+export const init = (opts = {}) => {
   options = opts;
   Object.freeze(options);
 };
 
-module.exports = SkylorComponent;
+export default SkylorComponent;
